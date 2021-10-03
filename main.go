@@ -11,6 +11,7 @@ import (
 )
 
 func main() {
+	// コマンドラインの受付エラー処理
 	if len(os.Args) != 2 {
 		log.Fatal("Usage: program symbol")
 	}
